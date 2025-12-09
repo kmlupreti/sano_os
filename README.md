@@ -2,12 +2,12 @@
 
 This is simple operating system written in Rust based on [this project](https://os.phil-opp.com)
 
-## Build bootable image and run
+## Build bootable image and run at once
 ```
   cargo run
 ```
 
-## Manually build image and run
+## or, Manually build image and run
 ```
 cargo bootimage
 ```
