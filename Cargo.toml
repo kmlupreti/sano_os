@@ -13,3 +13,6 @@ panic = "abort"
 name = "sano_os"
 test = false
 bench = false
+
+[dependencies]
+bootloader = "0.9"
