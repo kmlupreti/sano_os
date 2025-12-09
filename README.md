@@ -7,7 +7,7 @@ This is simple operating system written in Rust based on [this project](https://
   cargo run
 ```
 
-# Manually build image and run
+## Manually build image and run
 ```
 cargo bootimage
 ```
