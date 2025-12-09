@@ -9,4 +9,7 @@ panic = "abort"
 [profile.release]
 panic = "abort"
 
-[dependencies]
+[[bin]]
+name = "sano_os"
+test = false
+bench = false
