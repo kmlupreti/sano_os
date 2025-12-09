@@ -13,7 +13,7 @@ cargo bootimage
 ```
 This creates a bootable binary image file in `./target/x86_64-sano_os/debug/bootimage-sano_os.bin`
 
-Then, manually runs built bootable image using QEMU
+Then, manually run built bootable image using QEMU
 ```
 qemu-system-x86_64 -drive format=raw,file=target/x86_64-sano_os/debug/bootimage-sano_os.bin
 ```
